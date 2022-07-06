@@ -28,7 +28,7 @@ const AppProvider = ({ children }) => {
   const [error, setError] = useState(false)
   const [quiz, setQuiz] = useState({
     amount: 10,
-    category: 'sports',
+    category: 'Arts',
     difficulty: 'easy',
   })
   const [isModalOpen, setIsModalOpen] = useState(false)
