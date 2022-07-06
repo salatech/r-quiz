@@ -2,14 +2,14 @@ import axios from 'axios'
 import React, { useState, useContext, useEffect } from 'react'
 
 const table = {
-Vehicles:26,
+Vehicles:28,
  Mythology:20,
   sports: 21,
   history: 23,
   politics: 24,
   Arts: 25,
-  Celebrities: 24,
-  Animals : 25,
+  Celebrities: 26,
+  Animals : 27,
 }
 
 const API_ENDPOINT = 'https://opentdb.com/api.php?'
